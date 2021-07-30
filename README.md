@@ -68,6 +68,7 @@
 <li><em>Sample4.png</em></li>
 </ul>
 </li>
+<li>task2_output.pdf</li>
 </ul>
 <p>For this part of the task we have provided a <strong>“snippet”</strong> of outline code in <strong><code>task2.py</code></strong> file:</p>
 <ul>
