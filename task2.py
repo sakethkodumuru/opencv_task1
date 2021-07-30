@@ -19,15 +19,10 @@ shapes = {}
 ##############################################################
 
 
-
-
-
-
 ##############################################################
 
 
 def scan_image(img_file_path):
-
     """
     Purpose:
     ---
@@ -44,7 +39,7 @@ def scan_image(img_file_path):
     `shapes` :              [ dictionary ]
         details of colored (non-white) shapes present in image at img_file_path
         { 'Shape' : ['color', Area, cX, cY] }
-    
+
     Example call:
     ---
     shapes = scan_image(img_file_path)
@@ -53,43 +48,30 @@ def scan_image(img_file_path):
     global shapes
 
     ##############	ADD YOUR CODE HERE	##############
-	
-	
 
-	##################################################
-    
+    ##################################################
+
     return shapes
 
 
-
-
+##################################################
 if __name__ == '__main__':
 
     curr_dir_path = os.getcwd()
-    print('Currently working in '+ curr_dir_path)
+    print('Currently working in ' + curr_dir_path)
 
     # path directory of images in 'Samples' folder
     img_dir_path = curr_dir_path + '/Samples/'
-    
+
     # path to 'Sample1.png' image file
-    #change the path when running with a new image
-    img_file_path = img_dir_path + 'Sample1' +'.png' 
-
-    print('\n============================================')
-
-
-    try:
-        print('\nRunning scan_image function with ' + img_file_path + ' as an argument')
-        shapes = scan_image(img_file_path)
-
-        if type(shapes) is dict:
-            print(shapes)
-            print('\nOutput generated. Please verify.')
-        
-        else:
-            print('\n[ERROR] scan_image function returned a ' + str(type(shapes)) + ' instead of a dictionary.\n')
-            exit()
-
-    
-
-    
+    # change the path when running with a new image
+    img_file_path = img_dir_path + 'Sample1' + '.png'
+    print('============================================')
+    shapes = scan_image(img_file_path)
+    if type(shapes) is dict:
+        print(shapes)
+        print('\nOutput generated. Please verify.')
+    else:
+        print('\n[ERROR] scan_image function returned a ' +
+              str(type(shapes)) + ' instead of a dictionary.\n')
+        exit()
