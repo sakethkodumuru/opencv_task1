@@ -18,7 +18,7 @@
 <li>
 <p><b><u>Key:</u></b></p>
 <ul>
-<li><strong>'Shape'</strong> 	 =&gt; <em>String</em> in single quotation marks, with <em><strong>only first letter capital</strong></em>, can take any one of these values: <em><strong>Circle/ Triangle/ Trapezium/ Rhombus/ Square/ Quadrilateral(anything with 4 sides can be displayed like this)/ Pentagon/ Hexagon</strong></em></li>
+<li><strong>'Shape'</strong> 	 =&gt; <em>String</em> in single quotation marks, with <em><strong>only first letter capital</strong></em>, can take any one of these values: <em><strong>Circle/ Triangle/ Quadrilateral(anything with 4 sides can be displayed like this)/ Pentagon/ Hexagon</strong></em></li>
 </ul>
 </li>
 <li>
